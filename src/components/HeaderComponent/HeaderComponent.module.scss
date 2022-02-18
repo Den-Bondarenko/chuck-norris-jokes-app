@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.header {
+  padding: 8px 0;
+  background: $primary;
+  color: $white;
+
+  &__user {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 800;
+  }
+}

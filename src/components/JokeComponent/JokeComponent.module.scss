@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.joke {
+  position: relative;
+  z-index: 0;
+  color: $white;
+
+  &__area {
+    background: $primary;
+    font-size: 20px;
+    line-height: 1.3em;
+    min-height: 150px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    transform: translateY(-59%);
+    display: block;
+    z-index: -1;
+  }
+}
